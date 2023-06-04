@@ -16,6 +16,10 @@ font-size: 72px;
     letter-spacing: 0.1em;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 
 .hero {
@@ -46,4 +50,72 @@ font-size: 18px;
     width: 200px;
     height: 53px;
     letter-spacing: 0.1em;
+}
+
+
+
+.navbar {
+    background-color: var(--branding-color) !important;
+    color: var(--secondary-color) !important;
+}
+
+.navbar-text,
+.navbar-brand,
+.navbar-nav,
+.nav-link {
+    color: var(--secondary-color);
+}
+
+.nav-link.active{
+    color: var(--secondary-color) !important;
+    text-decoration: underline;
+}
+
+li a:hover {
+    color: var(--secondary-color) !important;
+    text-decoration: underline;
+    
+}
+
+.navbar-brand:hover{
+color: var(--secondary-color) !important;
+    text-decoration: underline;
+
+}
+
+.footer{
+    color: var(--secondary-color);
+    padding: 30px;
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+    background-color: var(--secondary-color) !important;
+    
+}
+
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 10px !important;
+    }
+
+    img {
+        max-width: 50%;
+        padding-top: 10px;
+    }
+
+    footer {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
 }
