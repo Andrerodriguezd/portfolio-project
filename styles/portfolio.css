@@ -1,8 +1,49 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;*/
+:root {
+    --branding-color:#212121;
+    --secondary-color:white; 
+}
+
+body {
+    background:var(--branding-color);
+}
 
 h1 {
-    color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
+    color: var(--secondary-color);
+font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+
+
+.hero {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 160px 0;
+}
+
+.hero p {
+font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.hero h2{
+    font-size: 24px;
+    color: var(--secondary-color);
+    letter-spacing: 0.1em;
+}
+
+.btn-branding {
+    background-color: var(--secondary-color) !important;
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    width: 200px;
+    height: 53px;
+    letter-spacing: 0.1em;
 }
