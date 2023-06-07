@@ -84,6 +84,7 @@ color: var(--secondary-color) !important;
 }
 
 .footer{
+    background-color: #282323;
     color: var(--secondary-color);
     padding: 30px;
 }
