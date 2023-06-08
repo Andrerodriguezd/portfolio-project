@@ -137,11 +137,6 @@ color: var(--secondary-color) !important;
     border-radius: 2px;
 }
 
-.img-vertical {
-    max-width: auto;
-   
-    object-fit: cover;
-}
 
 
 
