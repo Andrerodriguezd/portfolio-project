@@ -135,8 +135,14 @@ color: var(--secondary-color) !important;
 .camera-border {
     background-color: #2D2727;
     border-radius: 2px;
-;
 }
+
+.img-vertical {
+    max-width: auto;
+   
+    object-fit: cover;
+}
+
 
 
 @media (max-width: 600px) {
