@@ -155,6 +155,19 @@ color: var(--secondary-color) !important;
     color: #F65282;
 }
 
+.github {
+    color: white;
+font-size: 10px;
+opacity: 50%;
+}
+
+.link-to {
+    color:#F65282;
+}
+
+.email:hover {
+    color: #F65282 !important;
+}
 
 
 @media (max-width: 600px) {
